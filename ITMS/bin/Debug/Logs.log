@@ -1,0 +1,1520 @@
+﻿-- logger module started --
+main debug: VLC media player - 3.0.8 Vetinari
+main debug: Copyright © 1996-2019 the VideoLAN team
+main debug: revision 3.0.8-0-gf350b6b5a7
+main debug: configured with ../extras/package/win32/../../../configure  '--enable-update-check' '--enable-lua' '--enable-faad' '--enable-flac' '--enable-theora' '--enable-avcodec' '--enable-merge-ffmpeg' '--enable-dca' '--enable-mpc' '--enable-libass' '--enable-schroedinger' '--enable-realrtsp' '--enable-live555' '--enable-dvdread' '--enable-shout' '--enable-goom' '--enable-caca' '--enable-qt' '--enable-skins2' '--enable-sse' '--enable-mmx' '--enable-libcddb' '--enable-zvbi' '--disable-telx' '--enable-nls' '--host=i686-w64-mingw32' '--with-breakpad=https://win.crashes.videolan.org' 'host_alias=i686-w64-mingw32' 'PKG_CONFIG_LIBDIR=/home/jenkins/workspace/vlc-release/windows/vlc-release-win32-x86/contrib/i686-w64-mingw32/lib/pkgconfig'
+main debug: plug-ins loaded: 494 modules
+main debug: looking for logger module matching "any": 2 candidates
+file debug: opening logfile `Logs.log'
+main debug: using logger module "file"
+main debug: translation test: code is "zh_CN"
+main debug: looking for keystore module matching "memory": 3 candidates
+main debug: using keystore module "memory"
+main debug: CPU has capabilities MMX MMXEXT SSE SSE2 SSE3 SSSE3 SSE4.1 SSE4.2 FPU 
+main debug: creating audio output
+main debug: looking for audio output module matching "any": 6 candidates
+mmdevice error: cannot initialize COM (error 0x80010106)
+directsound debug: found 3 devices
+main debug: using audio output module "directsound"
+main debug: keeping audio output
+main debug: Creating an input for 'rtsp://192.168.1.64:554/'
+main debug: using timeshift granularity of 50 MiB
+main debug: using timeshift path: C:\Users\heng\AppData\Local\Temp
+main debug: `rtsp://admin:clt123456@192.168.1.64:554/' gives access `rtsp' demux `any' path `admin:clt123456@192.168.1.64:554/'
+main debug: creating demux: access='rtsp' demux='any' location='admin:clt123456@192.168.1.64:554/' file='\\admin:clt123456@192.168.1.64:554\'
+main debug: looking for access_demux module matching "rtsp": 15 candidates
+live555 debug: version 2016.11.28
+main warning: Password in a URI is DEPRECATED
+live555 debug: RTP subsession 'video/H264'
+main debug: selecting program id=0
+live555 debug: setup start: 0.000000 stop:0.000000
+live555 debug: We have a timeout of 60 seconds
+live555 debug: play start: 0.000000 stop:0.000000
+main debug: using access_demux module "live555"
+main debug: looking for packetizer module matching "any": 25 candidates
+h264 debug: found NAL_SPS (sps_id=0)
+h264 debug: found NAL_PPS (pps_id=0 sps_id=0)
+main debug: using packetizer module "h264"
+main debug: looking for video decoder module matching "any": 19 candidates
+avcodec debug: using ffmpeg Lavc58.6.103
+avcodec debug: CPU flags: 0x000fd3db
+avcodec debug: allowing 6 thread(s) for decoding
+avcodec debug: codec (h264) started
+avcodec debug: using frame thread mode with 6 threads
+main debug: using video decoder module "avcodec"
+main debug: looking for meta reader module matching "any": 2 candidates
+lua debug: Trying Lua scripts in C:\Users\heng\AppData\Roaming\vlc\lua\meta\reader
+lua debug: Trying Lua scripts in D:\VLC\lua\meta\reader
+lua debug: Trying Lua playlist script D:\VLC\lua\meta\reader\filename.luac
+main debug: no meta reader modules matched
+main debug: `rtsp://admin:clt123456@192.168.1.64:554/' successfully opened
+main debug: Buffering 0%
+main debug: Buffering 1%
+main debug: Buffering 3%
+main debug: restarting module due to input format change
+main debug: removing module "avcodec"
+main debug: Buffering 5%
+main debug: Buffering 7%
+main debug: looking for video decoder module matching "any": 19 candidates
+avcodec debug: using ffmpeg Lavc58.6.103
+avcodec debug: CPU flags: 0x000fd3db
+avcodec debug: allowing 6 thread(s) for decoding
+avcodec debug: codec (h264) started
+avcodec debug: using frame thread mode with 6 threads
+main debug: using video decoder module "avcodec"
+avcodec debug: available hardware decoder output format 119 (cuda)
+avcodec debug: available hardware decoder output format 53 (dxva2_vld)
+avcodec debug: available hardware decoder output format 118 (d3d11va_vld)
+avcodec debug: available hardware decoder output format 174 (d3d11)
+avcodec debug: available software decoder output format 12 (yuvj420p)
+avcodec debug: trying format d3d11va_vld
+main debug: looking for text renderer module matching "any": 3 candidates
+freetype debug: Using DWrite backend
+freetype debug: DWrite_GetFamily(): family name: Arial
+freetype debug: DWrite_ParseFamily(): using font at index 0 with weight 400 for bold: 0, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 1 with weight 700 for bold: 1, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 2 with weight 400 for bold: 0, italic: 1
+freetype debug: DWrite_ParseFamily(): using font at index 3 with weight 700 for bold: 1, italic: 1
+main debug: using text renderer module "freetype"
+main debug: looking for video converter module matching "any": 24 candidates
+swscale debug: 32x32 (32x32) chroma: YUVA -> 16x16 (16x16) chroma: RGBA with scaling using Bicubic (good quality)
+main debug: using video converter module "swscale"
+main debug: looking for video converter module matching "any": 24 candidates
+yuvp debug: YUVP to YUVA converter
+main debug: using video converter module "yuvp"
+main debug: Deinterlacing available
+main debug: deinterlace -1, mode auto, is_needed 0
+main debug: looking for vout window module matching "none": 3 candidates
+main debug: no vout window modules matched
+main debug: Opening vout display wrapper
+main debug: looking for vout display module matching "vmem": 12 candidates
+main debug: Buffering 9%
+main debug: Buffering 12%
+main debug: Buffering 31%
+main debug: Buffering 35%
+main debug: VoutDisplayEvent 'resize' 1920x1088
+main debug: using vout display module "vmem"
+main debug: A filter to adapt decoder DX11 to display RV32 is needed
+main debug: looking for video converter module matching "any": 24 candidates
+chain debug: Trying to use chroma I420 as middle man
+main debug: looking for video converter module matching "any": 24 candidates
+main debug: using video converter module "d3d11_filters"
+main debug: Filter 'd3d11_filters' (1a1fdfe8) appended to chain
+main debug: looking for video converter module matching "any": 24 candidates
+swscale debug: 1920x1080 (1920x1088) chroma: I420 -> 1920x1088 (1920x1088) chroma: RV32 with scaling using Bicubic (good quality)
+main debug: using video converter module "swscale"
+main debug: Filter 'Swscale' (1a1fda98) appended to chain
+main debug: using video converter module "chain"
+main debug: Filter 'chain' (3f0595e0) appended to chain
+main debug: original format sz 1920x1088, of (0,0), vsz 1920x1080, 4cc DX11, sar 1:1, msk r0x0 g0x0 b0x0
+main debug: VoutDisplayEvent 'window state' 0
+main debug: VoutDisplayEvent 'window state' 0
+main error: Failed to set on top
+main debug: VoutDisplayEvent 'resize' 1920x1080
+main debug: removing module "freetype"
+main debug: looking for text renderer module matching "any": 3 candidates
+freetype debug: Using DWrite backend
+freetype debug: DWrite_GetFamily(): family name: Arial
+freetype debug: DWrite_ParseFamily(): using font at index 0 with weight 400 for bold: 0, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 1 with weight 700 for bold: 1, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 2 with weight 400 for bold: 0, italic: 1
+freetype debug: DWrite_ParseFamily(): using font at index 3 with weight 700 for bold: 1, italic: 1
+main debug: using text renderer module "freetype"
+main debug: looking for hw decoder module matching "none": 2 candidates
+main debug: no hw decoder modules matched
+avcodec debug: trying format dxva2_vld
+main debug: removing module "chain"
+main debug: removing module "d3d11_filters"
+main debug: Filter 1a1fdfe8 removed from chain
+main debug: removing module "swscale"
+main debug: Filter 1a1fda98 removed from chain
+main debug: Filter 3f0595e0 removed from chain
+main debug: removing module "vmem"
+main debug: deinterlace -1, mode auto, is_needed 0
+main debug: Openi﻿-- logger module started --
+main debug: VLC media player - 3.0.8 Vetinari
+main debug: Copyright © 1996-2019 the VideoLAN team
+main debug: revision 3.0.8-0-gf350b6b5a7
+main debug: configured with ../extras/package/win32/../../../configure  '--enable-update-check' '--enable-lua' '--enable-faad' '--enable-flac' '--enable-theora' '--enable-avcodec' '--enable-merge-ffmpeg' '--enable-dca' '--enable-mpc' '--enable-libass' '--enable-schroedinger' '--enable-realrtsp' '--enable-live555' '--enable-dvdread' '--enable-shout' '--enable-goom' '--enable-caca' '--enable-qt' '--enable-skins2' '--enable-sse' '--enable-mmx' '--enable-libcddb' '--enable-zvbi' '--disable-telx' '--enable-nls' '--host=i686-w64-mingw32' '--with-breakpad=https://win.crashes.videolan.org' 'host_alias=i686-w64-mingw32' 'PKG_CONFIG_LIBDIR=/home/jenkins/workspace/vlc-release/windows/vlc-release-win32-x86/contrib/i686-w64-mingw32/lib/pkgconfig'
+main debug: plug-ins loaded: 494 modules
+main debug: looking for logger module matching "any": 2 candidates
+file debug: opening logfile `Logs.log'
+main debug: using logger module "file"
+main debug: translation test: code is "zh_CN"
+main debug: looking for keystore module matching "memory": 3 candidates
+main debug: using keystore module "memory"
+main debug: CPU has capabilities MMX MMXEXT SSE SSE2 SSE3 SSSE3 SSE4.1 SSE4.2 FPU 
+main debug: creating audio output
+main debug: looking for audio output module matching "any": 6 candidates
+mmdevice error: cannot initialize COM (error 0x80010106)
+directsound debug: found 3 devices
+main debug: using audio output module "directsound"
+main debug: keeping audio output
+main debug: Creating an input for 'rtsp://192.168.1.64:554/'
+main debug: using timeshift granularity of 50 MiB
+main debug: using timeshift path: C:\Users\heng\AppData\Local\Temp
+main debug: `rtsp://admin:clt123456@192.168.1.64:554/' gives access `rtsp' demux `any' path `admin:clt123456@192.168.1.64:554/'
+main debug: creating demux: access='rtsp' demux='any' location='admin:clt123456@192.168.1.64:554/' file='\\admin:clt123456@192.168.1.64:554\'
+main debug: looking for access_demux module matching "rtsp": 15 candidates
+live555 debug: version 2016.11.28
+main warning: Password in a URI is DEPRECATED
+live555 debug: RTP subsession 'video/H264'
+main debug: selecting program id=0
+live555 debug: setup start: 0.000000 stop:0.000000
+live555 debug: We have a timeout of 60 seconds
+live555 debug: play start: 0.000000 stop:0.000000
+main debug: using access_demux module "live555"
+main debug: looking for packetizer module matching "any": 25 candidates
+h264 debug: found NAL_SPS (sps_id=0)
+h264 debug: found NAL_PPS (pps_id=0 sps_id=0)
+main debug: using packetizer module "h264"
+main debug: looking for video decoder module matching "any": 19 candidates
+avcodec debug: using ffmpeg Lavc58.6.103
+avcodec debug: CPU flags: 0x000fd3db
+avcodec debug: allowing 6 thread(s) for decoding
+avcodec debug: codec (h264) started
+avcodec debug: using frame thread mode with 6 threads
+main debug: using video decoder module "avcodec"
+main debug: looking for meta reader module matching "any": 2 candidates
+lua debug: Trying Lua scripts in C:\Users\heng\AppData\Roaming\vlc\lua\meta\reader
+lua debug: Trying Lua scripts in D:\VLC\lua\meta\reader
+lua debug: Trying Lua playlist script D:\VLC\lua\meta\reader\filename.luac
+main debug: no meta reader modules matched
+main debug: `rtsp://admin:clt123456@192.168.1.64:554/' successfully opened
+main debug: Buffering 0%
+main debug: Buffering 1%
+main debug: Buffering 3%
+main debug: Buffering 5%
+main debug: Buffering 7%
+main debug: Buffering 9%
+main debug: Buffering 12%
+main debug: Buffering 31%
+main debug: Buffering 35%
+main debug: Buffering 38%
+main debug: Buffering 42%
+main debug: Buffering 46%
+main debug: Buffering 50%
+main debug: Buffering 54%
+main debug: Buffering 58%
+main debug: Buffering 62%
+main debug: Buffering 66%
+main debug: Buffering 70%
+main debug: Buffering 74%
+main debug: Buffering 78%
+main debug: Buffering 82%
+main debug: Buffering 86%
+main debug: Buffering 90%
+main debug: Buffering 94%
+main debug: Buffering 98%
+main debug: Stream buffering done (1029 ms in 4 ms)
+main debug: restarting module due to input format change
+main debug: removing module "avcodec"
+main debug: looking for video decoder module matching "any": 19 candidates
+avcodec debug: using ffmpeg Lavc58.6.103
+avcodec debug: CPU flags: 0x000fd3db
+avcodec debug: allowing 6 thread(s) for decoding
+avcodec debug: codec (h264) started
+avcodec debug: using frame thread mode with 6 threads
+main debug: using video decoder module "avcodec"
+avcodec debug: available hardware decoder output format 119 (cuda)
+avcodec debug: available hardware decoder output format 53 (dxva2_vld)
+avcodec debug: available hardware decoder output format 118 (d3d11va_vld)
+avcodec debug: available hardware decoder output format 174 (d3d11)
+avcodec debug: available software decoder output format 12 (yuvj420p)
+avcodec debug: trying format d3d11va_vld
+main debug: looking for text renderer module matching "any": 3 candidates
+freetype debug: Using DWrite backend
+freetype debug: DWrite_GetFamily(): family name: Arial
+freetype debug: DWrite_ParseFamily(): using font at index 0 with weight 400 for bold: 0, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 1 with weight 700 for bold: 1, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 2 with weight 400 for bold: 0, italic: 1
+freetype debug: DWrite_ParseFamily(): using font at index 3 with weight 700 for bold: 1, italic: 1
+main debug: using text renderer module "freetype"
+main debug: looking for video converter module matching "any": 24 candidates
+swscale debug: 32x32 (32x32) chroma: YUVA -> 16x16 (16x16) chroma: RGBA with scaling using Bicubic (good quality)
+main debug: using video converter module "swscale"
+main debug: looking for video converter module matching "any": 24 candidates
+yuvp debug: YUVP to YUVA converter
+main debug: using video converter module "yuvp"
+main debug: Deinterlacing available
+main debug: deinterlace -1, mode auto, is_needed 0
+main debug: looking for vout window module matching "none": 3 candidates
+main debug: no vout window modules matched
+main debug: Opening vout display wrapper
+main debug: looking for vout display module matching "vmem": 12 candidates
+main debug: VoutDisplayEvent 'resize' 1920x1088
+main debug: using vout display module "vmem"
+main debug: A filter to adapt decoder DX11 to display RV32 is needed
+main debug: looking for video converter module matching "any": 24 candidates
+chain debug: Trying to use chroma I420 as middle man
+main debug: looking for video converter module matching "any": 24 candidates
+main debug: using video converter module "d3d11_filters"
+main debug: Filter 'd3d11_filters' (0b234b18) appended to chain
+main debug: looking for video converter module matching "any": 24 candidates
+swscale debug: 1920x1080 (1920x1088) chroma: I420 -> 1920x1088 (1920x1088) chroma: RV32 with scaling using Bicubic (good quality)
+main debug: using video converter module "swscale"
+main debug: Filter 'Swscale' (0b2381b0) appended to chain
+main debug: using video converter module "chain"
+main debug: Filter 'chain' (3cb19d80) appended to chain
+main debug: original format sz 1920x1088, of (0,0), vsz 1920x1080, 4cc DX11, sar 1:1, msk r0x0 g0x0 b0x0
+main debug: VoutDisplayEvent 'window state' 0
+main debug: VoutDisplayEvent 'window state' 0
+main debug: removing module "freetype"
+main debug: auto hiding mouse cursor
+main error: Failed to set on top
+main debug: VoutDisplayEvent 'resize' 1920x1080
+main debug: looking for text renderer module matching "any": 3 candidates
+freetype debug: Using DWrite backend
+freetype debug: DWrite_GetFamily(): family name: Arial
+freetype debug: DWrite_ParseFamily(): using font at index 0 with weight 400 for bold: 0, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 1 with weight 700 for bold: 1, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 2 with weight 400 for bold: 0, italic: 1
+freetype debug: DWrite_ParseFamily(): using font at index 3 with weight 700 for bold: 1, italic: 1
+main debug: using text renderer module "freetype"
+main debug: looking for hw decoder module matching "none": 2 candidates
+main debug: no hw decoder modules matched
+avcodec debug: trying format dxva2_vld
+main debug: removing module "chain"
+main debug: removing module "d3d11_filters"
+main debug: Filter 0b234b18 removed from chain
+main debug: removing module "swscale"
+main debug: Filter 0b2381b0 removed from chain
+main debug: Filter 3cb19d80 removed from chain
+main debug: removing module "vmem"
+main debug: deinterlace -1, mode auto, is_needed 0
+main debug: Opening vout display wrapper
+main debug: looking for vout display module matching "vmem": 12 candidates
+main debug: VoutDisplayEvent 'resize' 1920x1088
+main debug: using vout display module "vmem"
+main debug: A filter to adapt decoder DXA9 to display RV32 is needed
+main debug: looking for video converter module matching "any": 24 candidates
+chain debug: Trying to use chroma I420 as middle man
+main debug: looking for video converter module matching "any": 24 candidates
+d3d9_filters debug: Using Direct3D9 Extended API!
+main debug: using video converter module "d3d9_filters"
+main debug: Filter 'd3d9_filters' (1a30aaf0) appended to chain
+main debug: looking for video converter module matching "any": 24 candidates
+swscale debug: 1920x1080 (1920x1088) chroma: I420 -> 1920x1088 (1920x1088) chroma: RV32 with scaling using Bicubic (good quality)
+main debug: using video converter module "swscale"
+main debug: Filter 'Swscale' (0b2381b0) appended to chain
+main debug: using video converter module "chain"
+main debug: Filter 'chain' (3cb19d80) appended to chain
+main debug: original format sz 1920x1088, of (0,0), vsz 1920x1080, 4cc DXA9, sar 1:1, msk r0x0 g0x0 b0x0
+main debug: VoutDisplayEvent 'window state' 0
+main debug: reusing provided vout
+main debug: VoutDisplayEvent 'window state' 0
+main debug: looking for hw decoder module matching "none": 2 candidates
+main debug: no hw decoder modules matched
+main debug: removing module "chain"
+main debug: removing module "d3d9_filters"
+main debug: Filter 1a30aaf0 removed from chain
+main debug: removing module "swscale"
+main debug: Filter 0b2381b0 removed from chain
+main debug: Filter 3cb19d80 removed from chain
+main debug: removing module "vmem"
+main debug: deinterlace -1, mode auto, is_needed 0
+main debug: Opening vout display wrapper
+main debug: looking for vout display module matching "vmem": 12 candidates
+main debug: VoutDisplayEvent 'resize' 1920x1090
+main debug: using vout display module "vmem"
+main debug: A filter to adapt decoder J420 to display RV32 is needed
+main debug: looking for video converter module matching "any": 24 candidates
+swscale debug: 1920x1080 (1920x1090) chroma: J420 -> 1920x1090 (1920x1090) chroma: RV32 with scaling using Bicubic (good quality)
+main debug: using video converter module "swscale"
+main debug: Filter 'Swscale' (3cb19d80) appended to chain
+main debug: original format sz 1920x1090, of (0,0), vsz 1920x1080, 4cc J420, sar 1:1, msk r0x0 g0x0 b0x0
+main debug: VoutDisplayEvent 'window state' 0
+main debug: reusing provided vout
+main debug: VoutDisplayEvent 'window state' 0
+main debug: Received first picture
+main debug: Decoder wait done in 3645 ms
+main error: Failed to set on top
+main debug: VoutDisplayEvent 'resize' 1920x1080
+main warning: picture is too late to be displayed (missing 40 ms)
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+main debug: auto hiding mouse cursor
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+main warning: picture is too late to be displayed (missing 4207 ms)
+main warning: picture is too late to be displayed (missing 4167 ms)
+main warning: picture is too late to be displayed (missing 4127 ms)
+main warning: picture is too late to be displayed (missing 4088 ms)
+main warning: picture is too late to be displayed (missing 4080 ms)
+main warning: picture is too late to be displayed (missing 323 ms)
+main warning: picture is too late to be displayed (missing 243 ms)
+main warning: picture is too late to be displayed (missing 164 ms)
+main warning: picture is too late to be displayed (missing 84 ms)
+main debug: picture might be displayed late (missing 5 ms)
+main warning: picture is too late to be displayed (missing 5129 ms)
+main warning: picture is too late to be displayed (missing 5090 ms)
+main warning: picture is too late to be displayed (missing 5050 ms)
+main warning: picture is too late to be displayed (missing 5010 ms)
+main warning: picture is too late to be displayed (missing 4970 ms)
+main warning: picture is too late to be displayed (missing 4930 ms)
+main warning: picture is too late to be displayed (missing 4890 ms)
+main warning: picture is too late to be displayed (missing 4851 ms)
+main warning: picture is too late to be displayed (missing 4811 ms)
+main warning: picture is too late to be displayed (missing 4771 ms)
+main warning: picture is too late to be displayed (missing 4732 ms)
+main warning: picture is too late to be displayed (missing 4692 ms)
+main warning: picture is too late to be displayed (missing 4652 ms)
+main warning: picture is too late to be displayed (missing 4612 ms)
+main warning: picture is too late to be displayed (missing 4572 ms)
+main warning: picture is too late to be displayed (missing 4531 ms)
+main warning: picture is too late to be displayed (missing 4491 ms)
+main warning: picture is too late to be displayed (missing 4451 ms)
+main warning: picture is too late to be displayed (missing 4412 ms)
+main warning: picture is too late to be displayed (missing 4373 ms)
+main warning: picture is too late to be displayed (missing 4333 ms)
+main warning: picture is too late to be displayed (missing 4293 ms)
+main warning: picture is too late to be displayed (missing 4253 ms)
+main warning: picture is too late to be displayed (missing 4213 ms)
+main warning: picture is too late to be displayed (missing 4173 ms)
+main warning: picture is too late to be displayed (missing 4133 ms)
+main warning: picture is too late to be displayed (missing 4093 ms)
+main warning: picture is too late to be displayed (missing 4054 ms)
+main error: ES_OUT_SET_(GROUP_)PCR  is called too late (pts_delay increased to 1000 ms)
+main debug: ES_OUT_RESET_PCR called
+main debug: Buffering 0%
+main debug: Buffering 4%
+main debug: Buffering 8%
+main debug: Buffering 12%
+main debug: Buffering 16%
+main debug: Buffering 19%
+main debug: Buffering 23%
+main debug: Buffering 27%
+main debug: Buffering 31%
+main debug: Buffering 35%
+main debug: Buffering 39%
+main debug: Buffering 43%
+main debug: Buffering 47%
+main debug: Buffering 51%
+main debug: Buffering 55%
+main debug: Buffering 59%
+main debug: Buffering 63%
+main debug: Buffering 67%
+main debug: Buffering 71%
+main debug: Buffering 75%
+main debug: Buffering 79%
+main debug: Buffering 83%
+main debug: Buffering 87%
+main debug: Buffering 91%
+main debug: Received first picture
+main debug: Buffering 95%
+main warning: picture is too late to be displayed (missing 10716 ms)
+main warning: picture is too late to be displayed (missing 10676 ms)
+main warning: picture is too late to be displayed (missing 10636 ms)
+main debug: Buffering 99%
+main warning: picture is too late to be displayed (missing 10596 ms)
+main warning: picture is too late to be displayed (missing 10556 ms)
+main warning: picture is too late to be displayed (missing 10516 ms)
+main warning: picture is too late to be displayed (missing 10476 ms)
+main warning: picture is too late to be displayed (missing 10436 ms)
+main warning: picture is too late to be displayed (missing 10397 ms)
+main warning: picture is too late to be displayed (missing 10357 ms)
+main warning: picture is too late to be displayed (missing 10317 ms)
+main warning: picture is too late to be displayed (missing 10277 ms)
+main warning: picture is too late to be displayed (missing 10237 ms)
+main warning: picture is too late to be displayed (missing 10197 ms)
+main warning: picture is too late to be displayed (missing 10157 ms)
+main warning: picture is too late to be displayed (missing 10117 ms)
+main warning: picture is too late to be displayed (missing 10078 ms)
+main warning: picture is too late to be displayed (missing 10038 ms)
+main warning: picture is too late to be displayed (missing 9999 ms)
+main debug: Stream buffering done (1039 ms in 20 ms)
+main warning: picture is too late to be displayed (missing 9959 ms)
+main warning: picture is too late to be displayed (missing 9919 ms)
+main warning: picture is too late to be displayed (missing 9879 ms)
+main warning: picture is too late to be displayed (missing 9839 ms)
+main warning: picture is too late to be displayed (missing 9799 ms)
+main warning: picture is too late to be displayed (missing 9759 ms)
+main warning: picture is too late to be displayed (missing 9719 ms)
+main warning: picture is too late to be displayed (missing 9679 ms)
+main error: buffer deadlock prevented
+main debug: Decoder wait done in 942 ms
+avcodec debug: available hardware decoder output format 119 (cuda)
+avcodec debug: available hardware decoder output format 53 (dxva2_vld)
+avcodec debug: available hardware decoder output format 118 (d3d11va_vld)
+avcodec debug: available hardware decoder output format 174 (d3d11)
+avcodec debug: available software decoder output format 12 (yuvj420p)
+avcodec debug: reusing decoder output format 12
+main warning: picture is too late to be displayed (missing 3411 ms)
+main warning: picture is too late to be displayed (missing 3371 ms)
+main warning: picture is too late to be displayed (missing 3331 ms)
+main warning: picture is too late to be displayed (missing 3291 ms)
+main warning: picture is too late to be displayed (missing 3251 ms)
+main warning: picture is too late to be displayed (missing 3212 ms)
+main warning: picture is too late to be displayed (missing 3172 ms)
+main warning: picture is too late to be displayed (missing 3132 ms)
+main warning: picture is too late to be displayed (missing 3092 ms)
+main warning: picture is too late to be displayed (missing 3052 ms)
+main warning: picture is too late to be displayed (missing 3012 ms)
+main warning: picture is too late to be displayed (missing 2972 ms)
+main warning: picture is too late to be displayed (missing 2933 ms)
+main warning: picture is too late to be displayed (missing 2893 ms)
+main warning: picture is too late to be displayed (missing 2854 ms)
+main warning: picture is too late to be displayed (missing 2814 ms)
+main warning: picture is too late to be displayed (missing 2774 ms)
+main warning: picture is too late to be displayed (missing 2734 ms)
+main warning: picture is too late to be displayed (missing 2694 ms)
+main warning: picture is too late to be displayed (missing 2654 ms)
+main warning: picture is too late to be displayed (missing 2615 ms)
+main warning: picture is too late to be displayed (missing 2575 ms)
+main warning: picture is too late to be displayed (missing 2535 ms)
+main warning: picture is too late to be displayed (missing 2496 ms)
+main warning: picture is too late to be displayed (missing 2456 ms)
+main warning: picture is too late to be displayed (missing 2416 ms)
+main warning: picture is too late to be displayed (missing 2376 ms)
+main warning: picture is too late to be displayed (missing 12779 ms)
+main warning: picture is too late to be displayed (missing 13041 ms)
+avcodec error: more than 5 seconds of late video -> dropping frame (computer too slow ?)
+avcodec error: more than 5 seconds of late video -> dropping frame (computer too slow ?)
+main warning: picture is too late to be displayed (missing 10090 ms)
+main warning: picture is too late to be displayed (missing 10060 ms)
+main warning: picture is too late to be displayed (missing 10034 ms)
+main warning: picture is too late to be displayed (missing 9994 ms)
+main warning: picture is too late to be displayed (missing 9954 ms)
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+main warning: picture is too late to be displayed (missing 754 ms)
+main warning: picture is too late to be displayed (missing 674 ms)
+main warning: picture is too late to be displayed (missing 594 ms)
+main warning: picture is too late to be displayed (missing 515 ms)
+main warning: picture is too late to be displayed (missing 436 ms)
+main warning: picture is too late to be displayed (missing 396 ms)
+main warning: picture is too late to be displayed (missing 356 ms)
+main warning: picture is too late to be displayed (missing 316 ms)
+main warning: picture is too late to be displayed (missing 276 ms)
+main warning: picture is too late to be displayed (missing 238 ms)
+main warning: picture is too late to be displayed (missing 199 ms)
+main warning: picture is too late to be displayed (missing 159 ms)
+main warning: picture is too late to be displayed (missing 119 ms)
+main warning: picture is﻿-- logger module started --
+main debug: VLC media player - 3.0.8 Vetinari
+main debug: Copyright © 1996-2019 the VideoLAN team
+main debug: revision 3.0.8-0-gf350b6b5a7
+main debug: configured with ../extras/package/win32/../../../configure  '--enable-update-check' '--enable-lua' '--enable-faad' '--enable-flac' '--enable-theora' '--enable-avcodec' '--enable-merge-ffmpeg' '--enable-dca' '--enable-mpc' '--enable-libass' '--enable-schroedinger' '--enable-realrtsp' '--enable-live555' '--enable-dvdread' '--enable-shout' '--enable-goom' '--enable-caca' '--enable-qt' '--enable-skins2' '--enable-sse' '--enable-mmx' '--enable-libcddb' '--enable-zvbi' '--disable-telx' '--enable-nls' '--host=i686-w64-mingw32' '--with-breakpad=https://win.crashes.videolan.org' 'host_alias=i686-w64-mingw32' 'PKG_CONFIG_LIBDIR=/home/jenkins/workspace/vlc-release/windows/vlc-release-win32-x86/contrib/i686-w64-mingw32/lib/pkgconfig'
+main debug: plug-ins loaded: 494 modules
+main debug: looking for logger module matching "any": 2 candidates
+file debug: opening logfile `Logs.log'
+main debug: using logger module "file"
+main debug: translation test: code is "zh_CN"
+main debug: looking for keystore module matching "memory": 3 candidates
+main debug: using keystore module "memory"
+main debug: CPU has capabilities MMX MMXEXT SSE SSE2 SSE3 SSSE3 SSE4.1 SSE4.2 FPU 
+main debug: creating audio output
+main debug: looking for audio output module matching "any": 6 candidates
+mmdevice error: cannot initialize COM (error 0x80010106)
+directsound debug: found 3 devices
+main debug: using audio output module "directsound"
+main debug: keeping audio output
+main debug: Creating an input for 'rtsp://192.168.1.64:554/'
+main debug: using timeshift granularity of 50 MiB
+main debug: using timeshift path: C:\Users\heng\AppData\Local\Temp
+main debug: `rtsp://admin:clt123456@192.168.1.64:554/' gives access `rtsp' demux `any' path `admin:clt123456@192.168.1.64:554/'
+main debug: creating demux: access='rtsp' demux='any' location='admin:clt123456@192.168.1.64:554/' file='\\admin:clt123456@192.168.1.64:554\'
+main debug: looking for access_demux module matching "rtsp": 15 candidates
+live555 debug: version 2016.11.28
+main warning: Password in a URI is DEPRECATED
+live555 debug: RTP subsession 'video/H264'
+main debug: selecting program id=0
+live555 debug: setup start: 0.000000 stop:0.000000
+live555 debug: We have a timeout of 60 seconds
+live555 debug: play start: 0.000000 stop:0.000000
+main debug: using access_demux module "live555"
+main debug: looking for packetizer module matching "any": 25 candidates
+h264 debug: found NAL_SPS (sps_id=0)
+h264 debug: found NAL_PPS (pps_id=0 sps_id=0)
+main debug: using packetizer module "h264"
+main debug: looking for video decoder module matching "any": 19 candidates
+avcodec debug: using ffmpeg Lavc58.6.103
+avcodec debug: CPU flags: 0x000fd3db
+avcodec debug: allowing 6 thread(s) for decoding
+avcodec debug: codec (h264) started
+avcodec debug: using frame thread mode with 6 threads
+main debug: using video decoder module "avcodec"
+main debug: looking for meta reader module matching "any": 2 candidates
+lua debug: Trying Lua scripts in C:\Users\heng\AppData\Roaming\vlc\lua\meta\reader
+lua debug: Trying Lua scripts in D:\VLC\lua\meta\reader
+lua debug: Trying Lua playlist script D:\VLC\lua\meta\reader\filename.luac
+main debug: no meta reader modules matched
+main debug: `rtsp://admin:clt123456@192.168.1.64:554/' successfully opened
+main debug: Buffering 0%
+main debug: Buffering 1%
+main debug: restarting module due to input format change
+main debug: Buffering 3%
+main debug: removing module "avcodec"
+main debug: Buffering 5%
+main debug: Buffering 7%
+main debug: Buffering 9%
+main debug: looking for video decoder module matching "any": 19 candidates
+avcodec debug: using ffmpeg Lavc58.6.103
+avcodec debug: CPU flags: 0x000fd3db
+avcodec debug: allowing 6 thread(s) for decoding
+avcodec debug: codec (h264) started
+avcodec debug: using frame thread mode with 6 threads
+main debug: using video decoder module "avcodec"
+main debug: Buffering 12%
+avcodec debug: available hardware decoder output format 119 (cuda)
+avcodec debug: available hardware decoder output format 53 (dxva2_vld)
+avcodec debug: available hardware decoder output format 118 (d3d11va_vld)
+avcodec debug: available hardware decoder output format 174 (d3d11)
+avcodec debug: available software decoder output format 12 (yuvj420p)
+avcodec debug: trying format d3d11va_vld
+main debug: looking for text renderer module matching "any": 3 candidates
+freetype debug: Using DWrite backend
+freetype debug: DWrite_GetFamily(): family name: Arial
+freetype debug: DWrite_ParseFamily(): using font at index 0 with weight 400 for bold: 0, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 1 with weight 700 for bold: 1, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 2 with weight 400 for bold: 0, italic: 1
+freetype debug: DWrite_ParseFamily(): using font at index 3 with weight 700 for bold: 1, italic: 1
+main debug: using text renderer module "freetype"
+main debug: looking for video converter module matching "any": 24 candidates
+swscale debug: 32x32 (32x32) chroma: YUVA -> 16x16 (16x16) chroma: RGBA with scaling using Bicubic (good quality)
+main debug: using video converter module "swscale"
+main debug: looking for video converter module matching "any": 24 candidates
+yuvp debug: YUVP to YUVA converter
+main debug: using video converter module "yuvp"
+main debug: Deinterlacing available
+main debug: deinterlace -1, mode auto, is_needed 0
+main debug: looking for vout window module matching "none": 3 candidates
+main debug: no vout window modules matched
+main debug: Opening vout display wrapper
+main debug: looking for vout display module matching "vmem": 12 candidates
+main debug: Buffering 31%
+main debug: Buffering 35%
+main debug: Buffering 39%
+main debug: VoutDisplayEvent 'resize' 1920x1088
+main debug: using vout display module "vmem"
+main debug: A filter to adapt decoder DX11 to display RV32 is needed
+main debug: looking for video converter module matching "any": 24 candidates
+chain debug: Trying to use chroma I420 as middle man
+main debug: looking for video converter module matching "any": 24 candidates
+main debug: using video converter module "d3d11_filters"
+main debug: Filter 'd3d11_filters' (1a1fcb10) appended to chain
+main debug: looking for video converter module matching "any": 24 candidates
+swscale debug: 1920x1080 (1920x1088) chroma: I420 -> 1920x1088 (1920x1088) chroma: RV32 with scaling using Bicubic (good quality)
+main debug: using video converter module "swscale"
+main debug: Filter 'Swscale' (1a1fdb00) appended to chain
+main debug: using video converter module "chain"
+main debug: Filter 'chain' (1a3666a0) appended to chain
+main debug: original format sz 1920x1088, of (0,0), vsz 1920x1080, 4cc DX11, sar 1:1, msk r0x0 g0x0 b0x0
+main debug: VoutDisplayEvent 'window state' 0
+main debug: VoutDisplayEvent 'window state' 0
+main error: Failed to set on top
+main debug: removing module "freetype"
+main debug: VoutDisplayEvent 'resize' 1920x1080
+main debug: looking for text renderer module matching "any": 3 candidates
+freetype debug: Using DWrite backend
+freetype debug: DWrite_GetFamily(): family name: Arial
+freetype debug: DWrite_ParseFamily(): using font at index 0 with weight 400 for bold: 0, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 1 with weight 700 for bold: 1, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 2 with weight 400 for bold: 0, italic: 1
+freetype debug: DWrite_ParseFamily(): using font at index 3 with weight 700 for bold: 1, italic: 1
+main debug: using text renderer module "freetype"
+main debug: looking for hw decoder module matching "none": 2 candidates
+main debug: no hw decoder modules matched
+avcodec debug: trying format dxva2_vld
+main debug: removing module "chain"
+main debug: removing module "d3d11_filters"
+main debug: Filter 1a1fcb10 removed from chain
+main debug: removing module "swscale"
+main debug: Filter 1a1fdb00 removed from chain
+main debug: Filter 1a3666a0 removed from chain
+main debug: removing module "vmem"
+main debug: deinterlace -1, mode auto, is_needed 0
+main debug: Opening vout display wrapper
+main debug: looking for vout display module matching "vmem": 12 candidates
+main debug: VoutDisplayEvent 'resize' 1920x1088
+main debug: using vout display module "vmem"
+main debug: A filter to adapt decoder DXA9 to display RV32 is needed
+main debug: looking for video converter module matching "any": 24 candidates
+chain debug: Trying to use chroma I420 as middle man
+main debug: looking for video converter module matching "any": 24 candidates
+main debug: Buffering 43%
+d3d9_filters debug: Using Direct3D9 Extended API!
+main debug: using video converter module "d3d9_filters"
+main debug: Filter 'd3d9_filters' (1a1fdb00) appended to chain
+main debug: looking for video converter module matching "any": 24 candidates
+swscale debug: 1920x1080 (1920x1088) chroma: I420 -> 1920x1088 (1920x1088) chroma: RV32 with scaling using Bicubic (good quality)
+main debug: using video converter module "swscale"
+main debug: Filter 'Swscale' (1a1fcdb8) appended to chain
+main debug: using video converter module "chain"
+main debug: Filter 'chain' (1a1fd858) appended to chain
+main debug: original format sz 1920x1088, of (0,0), vsz 1920x1080, 4cc DXA9, sar 1:1, msk r0x0 g0x0 b0x0
+main debug: VoutDisplayEvent 'window state' 0
+main debug: VoutDisplayEvent 'window state' 0
+main debug: reusing provided vout
+main debug: looking for hw decoder module matching "none": 2 candidates
+main debug: no hw decoder modules matched
+main debug: removing module "chain"
+main debug: removing module "d3d9_filters"
+main debug: Filter 1a1fdb00 removed from chain
+main debug: removing module "swscale"
+main debug: Filter 1a1fcdb8 removed from chain
+main debug: Filter 1a1fd858 removed from chain
+main debug: removing module "vmem"
+main debug: deinterlace -1, mode auto, is_needed 0
+main debug: Opening vout display wrapper
+main debug: looking for vout display module matching "vmem": 12 candidates
+main debug: VoutDisplayEvent 'resize' 1920x1080
+main debug: using vout display module "vmem"
+main debug: A filter to adapt decoder J420 to display RV32 is needed
+main debug: looking for video converter module matching "any": 24 candidates
+swscale debug: 1920x1080 (1920x1090) chroma: J420 -> 1920x1080 (1920x1080) chroma: RV32 with scaling using Bicubic (good quality)
+main debug: using video converter module "swscale"
+main debug: Filter 'Swscale' (1a1fc868) appended to chain
+main debug: original format sz 1920x1090, of (0,0), vsz 1920x1080, 4cc J420, sar 1:1, msk r0x0 g0x0 b0x0
+main debug: VoutDisplayEvent 'window state' 0
+main debug: reusing provided vout
+main debug: VoutDisplayEvent 'window state' 0
+main debug: Buffering 47%
+main error: Failed to set on top
+main debug: VoutDisplayEvent 'resize' 1920x1080
+main debug: Received first picture
+main debug: Buffering 51%
+main debug: Buffering 55%
+main debug: Buffering 59%
+main debug: Buffering 63%
+main debug: Buffering 67%
+main debug: Buffering 71%
+main debug: Buffering 75%
+main debug: Buffering 79%
+main debug: Buffering 82%
+main debug: Buffering 86%
+main debug: Buffering 90%
+main debug: Buffering 94%
+main debug: Buffering 98%
+main debug: Stream buffering done (1029 ms in 840 ms)
+main debug: Decoder wait done in 0 ms
+main debug: auto hiding mouse cursor
+main debug: picture might be displayed late (missing 2 ms)
+main warning: picture is too late to be displayed (missing 9839 ms)
+main warning: picture is too late to be displayed (missing 9800 ms)
+main warning: picture is too late to be displayed (missing 9760 ms)
+main warning: picture is too late to be displayed (missing 9720 ms)
+main warning: picture is too late to be displayed (missing 9680 ms)
+main warning: picture is too late to be displayed (missing 9641 ms)
+main warning: picture is too late to be displayed (missing 9601 ms)
+main warning: picture is too late to be displayed (missing 9561 ms)
+main warning: picture is too late to be displayed (missing 9521 ms)
+main warning: picture is too late to be displayed (missing 9481 ms)
+main warning: picture is too late to be displayed (missing 9441 ms)
+main warning: picture is too late to be displayed (missing 9401 ms)
+main warning: picture is too late to be displayed (missing 9362 ms)
+main warning: picture is too late to be displayed (missing 9322 ms)
+main warning: picture is too late to be displayed (missing 9282 ms)
+main warning: picture is too late to be displayed (missing 9242 ms)
+main warning: picture is too late to be displayed (missing 9200 ms)
+main warning: picture is too late to be displayed (missing 9160 ms)
+main warning: picture is too late to be displayed (missing 9120 ms)
+main warning: picture is too late to be displayed (missing 9081 ms)
+main warning: picture is too late to be displayed (missing 9041 ms)
+main warning: picture is too late to be displayed (missing 9001 ms)
+main warning: picture is too late to be displayed (missing 8962 ms)
+main warning: picture is too late to be displayed (missing 8922 ms)
+main warning: picture is too late to be displayed (missing 8882 ms)
+main warning: picture is too late to be displayed (missing 8842 ms)
+main warning: picture is too late to be displayed (missing 8802 ms)
+main warning: picture is too late to be displayed (missing 2988 ms)
+main warning: picture is too late to be displayed (missing 2948 ms)
+main warning: picture is too late to be displayed (missing 2908 ms)
+main warning: picture is too late to be displayed (missing 2868 ms)
+main warning: picture is too late to be displayed (missing 2828 ms)
+main warning: picture is too late to be displayed (missing 2788 ms)
+main warning: picture is too late to be displayed (missing 2749 ms)
+main warning: picture is too late to be displayed (missing 2709 ms)
+main warning: picture is too late to be displayed (missing 2669 ms)
+main warning: picture is too late to be displayed (missing 2629 ms)
+main warning: picture is too late to be displayed (missing 2589 ms)
+main warning: picture is too late to be displayed (missing 2549 ms)
+main warning: picture is too late to be displayed (missing 2509 ms)
+main warning: picture is too late to be displayed (missing 2469 ms)
+main warning: picture is too late to be displayed (missing 2430 ms)
+main warning: picture is too late to be displayed (missing 2390 ms)
+main warning: picture is too late to be displayed (missing 2351 ms)
+main warning: picture is too late to be displayed (missing 2311 ms)
+main warning: picture is too late to be displayed (missing 2271 ms)
+main warning: picture is too late to be displayed (missing 2231 ms)
+main warning: picture is too late to be displayed (missing 2191 ms)
+main warning: picture is too late to be displayed (missing 2151 ms)
+main warning: picture is too late to be displayed (missing 2111 ms)
+main warning: picture is too late to be displayed (missing 2074 ms)
+main warning: picture is too late to be displayed (missing 2034 ms)
+main warning: picture is too late to be displayed (missing 1994 ms)
+main warning: picture is too late to be displayed (missing 1955 ms)
+main warning: picture is too late to be displayed (missing 8558 ms)
+main warning: picture is too late to be displayed (missing 10986 ms)
+main warning: picture is too late to be displayed (missing 10946 ms)
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+main warning: picture is too late to be displayed (missing 11463 ms)
+main warning: picture is too late to be displayed (missing 11423 ms)
+main warning: picture is too late to be displayed (missing 74 ms)
+main warning: picture is too late to be displayed (missing 448 ms)
+main warning: picture is too late to be displayed (missing 368 ms)
+main warning: picture is too late to be displayed (missing 288 ms)
+main warning: picture is too late to be displayed (missing 249 ms)
+main warning: picture is too late to be displayed (missing 209 ms)
+main warning: picture is too late to be displayed (missing 170 ms)
+main warning: picture is too late to be displayed (missing 130 ms)
+main warning: picture is too late to be displayed (missing 90 ms)
+main warning: picture is too late to be displayed (missing 50 ms)
+main debug: picture might be displayed late (missing 10 ms)
+main warning: picture is too late to be displayed (missing 415 ms)
+main warning: picture is too late to be displayed (missing 116 ms)
+main warning: picture is too late to be displayed (missing 76 ms)
+main warning: picture is too late to be displayed (missing 36 ms)
+main warning: picture is too late to be displayed (missing 146 ms)
+main warning: picture is too late to be displayed (missing 106 ms)
+main warning: picture is too late to be displayed (missing 66 ms)
+main warning: picture is too late to be displayed (missing 26 ms)
+main warning: picture is too late to be displayed (missing 787 ms)
+main warning: picture is too late to be displayed (missing 747 ms)
+main warning: picture is too late to be displayed (missing 707 ms)
+main warning: picture is too late to be displayed (missing 667 ms)
+main warning: picture is too late to be displayed (missing 846 ms)
+main warning: picture is too late to be displayed (missing 806 ms)
+main warning: picture is too late to be displayed (missing 766 ms)
+main warning: picture is too late to be displayed (missing 726 ms)
+main warning: picture is too late to be displayed (missing 686 ms)
+main warning: picture is too late to be displayed (missing 647 ms)
+main warning: picture is too late to be displayed (missing 607 ms)
+main warning: picture is too late to be displayed (missing 567 ms)
+main warning: picture is too late to be displayed (missing 527 ms)
+main warning: picture is too late to be displayed (missing 487 ms)
+main warning: picture is too late to be displayed (missing 447 ms)
+main warning: picture is too late to be displayed (missing 407 ms)
+main warning: picture is too late to be displayed (missing 366 ms)
+main warning: picture is too late to be displayed (missing 326 ms)
+main warning: picture is too late to be displayed (missing 286 ms)
+main warning: picture is too late to be displayed (missing 247 ms)
+main warning: picture is too late to be displayed (missing 207 ms)
+main warning: picture is too late to be displayed (missing 167 ms)
+main warning: picture is too late to be displayed (missing 127 ms)
+main warning: picture is too late to be displayed (missing 87 ms)
+main warning: picture is too late to be displayed (missing 47 ms)
+main debug: picture might be displayed late (missing 7 ms)
+main warning: picture is too late to be displayed (missing 154 ms)
+main warning: picture is too late to be displayed (missing 2068 ms)
+main warning: picture is too late to be displayed (missing 2029 ms)
+main warning: picture is too late to be displayed (missing 1989 ms)
+main warning: picture is too late to be displayed (missing 1949 ms)
+main warning: picture is too late to be displayed (missing 1909 ms)
+main warning: picture is too late to be displayed (missing 1869 ms)
+main warning: picture is too late to be displayed (missing 1829 ms)
+main warning: picture is too late to be displayed (missing 1789 ms)
+main warning: picture is too late to be displayed (missing 1750 ms)
+main warning: picture is too late to be displayed (missing 1710 ms)
+main warning: picture is too late to be displayed (missing 1670 ms)
+main warning: picture is too late to be displayed (missing 1630 ms)
+main warning: picture is too late to be displayed (missing 1590 ms)
+main warning: picture is too late to be displayed (missing 1550 ms)
+main warning: picture is too late to be displayed (missing 1510 ms)
+main warning: picture is too late to be displayed (missing 1470 ms)
+main warning: picture is too late to be displayed (missing 1431 ms)
+main warning: picture is too late to be displayed (missing 1391 ms)
+main warning: picture is too late to be displayed (missing 1351 ms)
+main warning: picture is too late to be displayed (missing 1312 ms)
+main warning: picture is too late to be displayed (missing 1272 ms)
+main warning: picture is too late to be displayed (missing 1232 ms)
+main warning: picture is too late to be displayed (missing 1193 ms)
+main warning: picture is too late to be displayed (missing 1153 ms)
+main warning: picture is too late to be displayed (missing 1113 ms)
+main warning: picture is too late to be displayed (missing 1073 ms)
+main warning: picture is too late to be displayed (missing 1033 ms)
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames, dropping frame
+avcodec warning: More than 11 late frames,﻿-- logger module started --
+main debug: VLC media player - 3.0.8 Vetinari
+main debug: Copyright © 1996-2019 the VideoLAN team
+main debug: revision 3.0.8-0-gf350b6b5a7
+main debug: configured with ../extras/package/win32/../../../configure  '--enable-update-check' '--enable-lua' '--enable-faad' '--enable-flac' '--enable-theora' '--enable-avcodec' '--enable-merge-ffmpeg' '--enable-dca' '--enable-mpc' '--enable-libass' '--enable-schroedinger' '--enable-realrtsp' '--enable-live555' '--enable-dvdread' '--enable-shout' '--enable-goom' '--enable-caca' '--enable-qt' '--enable-skins2' '--enable-sse' '--enable-mmx' '--enable-libcddb' '--enable-zvbi' '--disable-telx' '--enable-nls' '--host=i686-w64-mingw32' '--with-breakpad=https://win.crashes.videolan.org' 'host_alias=i686-w64-mingw32' 'PKG_CONFIG_LIBDIR=/home/jenkins/workspace/vlc-release/windows/vlc-release-win32-x86/contrib/i686-w64-mingw32/lib/pkgconfig'
+main debug: plug-ins loaded: 494 modules
+main debug: looking for logger module matching "any": 2 candidates
+file debug: opening logfile `Logs.log'
+main debug: using logger module "file"
+main debug: translation test: code is "zh_CN"
+main debug: looking for keystore module matching "memory": 3 candidates
+main debug: using keystore module "memory"
+main debug: CPU has capabilities MMX MMXEXT SSE SSE2 SSE3 SSSE3 SSE4.1 SSE4.2 FPU 
+main debug: creating audio output
+main debug: looking for audio output module matching "any": 6 candidates
+mmdevice error: cannot initialize COM (error 0x80010106)
+directsound debug: found 3 devices
+main debug: using audio output module "directsound"
+main debug: keeping audio output
+main debug: Creating an input for 'rtsp://192.168.1.64:554/'
+main debug: using timeshift granularity of 50 MiB
+main debug: using timeshift path: C:\Users\heng\AppData\Local\Temp
+main debug: `rtsp://admin:clt123456@192.168.1.64:554/' gives access `rtsp' demux `any' path `admin:clt123456@192.168.1.64:554/'
+main debug: creating demux: access='rtsp' demux='any' location='admin:clt123456@192.168.1.64:554/' file='\\admin:clt123456@192.168.1.64:554\'
+main debug: looking for access_demux module matching "rtsp": 15 candidates
+live555 debug: version 2016.11.28
+main warning: Password in a URI is DEPRECATED
+live555 debug: RTP subsession 'video/H264'
+main debug: selecting program id=0
+live555 debug: setup start: 0.000000 stop:0.000000
+live555 debug: We have a timeout of 60 seconds
+live555 debug: play start: 0.000000 stop:0.000000
+main debug: using access_demux module "live555"
+main debug: looking for packetizer module matching "any": 25 candidates
+h264 debug: found NAL_SPS (sps_id=0)
+h264 debug: found NAL_PPS (pps_id=0 sps_id=0)
+main debug: using packetizer module "h264"
+main debug: looking for video decoder module matching "any": 19 candidates
+avcodec debug: using ffmpeg Lavc58.6.103
+avcodec debug: CPU flags: 0x000fd3db
+avcodec debug: allowing 6 thread(s) for decoding
+avcodec debug: codec (h264) started
+avcodec debug: using frame thread mode with 6 threads
+main debug: using video decoder module "avcodec"
+main debug: looking for meta reader module matching "any": 2 candidates
+lua debug: Trying Lua scripts in C:\Users\heng\AppData\Roaming\vlc\lua\meta\reader
+lua debug: Trying Lua scripts in D:\VLC\lua\meta\reader
+lua debug: Trying Lua playlist script D:\VLC\lua\meta\reader\filename.luac
+main debug: no meta reader modules matched
+main debug: `rtsp://admin:clt123456@192.168.1.64:554/' successfully opened
+main debug: Buffering 0%
+main debug: Buffering 1%
+main debug: Buffering 3%
+main debug: restarting module due to input format change
+main debug: removing module "avcodec"
+main debug: Buffering 5%
+main debug: Buffering 7%
+main debug: looking for video decoder module matching "any": 19 candidates
+avcodec debug: using ffmpeg Lavc58.6.103
+avcodec debug: CPU flags: 0x000fd3db
+avcodec debug: allowing 6 thread(s) for decoding
+avcodec debug: codec (h264) started
+avcodec debug: using frame thread mode with 6 threads
+main debug: using video decoder module "avcodec"
+avcodec debug: available hardware decoder output format 119 (cuda)
+avcodec debug: available hardware decoder output format 53 (dxva2_vld)
+avcodec debug: available hardware decoder output format 118 (d3d11va_vld)
+avcodec debug: available hardware decoder output format 174 (d3d11)
+avcodec debug: available software decoder output format 12 (yuvj420p)
+avcodec debug: trying format d3d11va_vld
+main debug: looking for text renderer module matching "any": 3 candidates
+freetype debug: Using DWrite backend
+freetype debug: DWrite_GetFamily(): family name: Arial
+freetype debug: DWrite_ParseFamily(): using font at index 0 with weight 400 for bold: 0, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 1 with weight 700 for bold: 1, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 2 with weight 400 for bold: 0, italic: 1
+freetype debug: DWrite_ParseFamily(): using font at index 3 with weight 700 for bold: 1, italic: 1
+main debug: using text renderer module "freetype"
+main debug: looking for video converter module matching "any": 24 candidates
+swscale debug: 32x32 (32x32) chroma: YUVA -> 16x16 (16x16) chroma: RGBA with scaling using Bicubic (good quality)
+main debug: using video converter module "swscale"
+main debug: looking for video converter module matching "any": 24 candidates
+yuvp debug: YUVP to YUVA converter
+main debug: using video converter module "yuvp"
+main debug: Deinterlacing available
+main debug: deinterlace -1, mode auto, is_needed 0
+main debug: looking for vout window module matching "none": 3 candidates
+main debug: no vout window modules matched
+main debug: Buffering 9%
+main debug: Opening vout display wrapper
+main debug: looking for vout display module matching "vmem": 12 candidates
+main debug: Buffering 12%
+main debug: Buffering 31%
+main debug: Buffering 35%
+main debug: VoutDisplayEvent 'resize' 1920x1088
+main debug: using vout display module "vmem"
+main debug: A filter to adapt decoder DX11 to display RV32 is needed
+main debug: looking for video converter module matching "any": 24 candidates
+chain debug: Trying to use chroma I420 as middle man
+main debug: looking for video converter module matching "any": 24 candidates
+main debug: using video converter module "d3d11_filters"
+main debug: Filter 'd3d11_filters' (0fa8d530) appended to chain
+main debug: looking for video converter module matching "any": 24 candidates
+swscale debug: 1920x1080 (1920x1088) chroma: I420 -> 1920x1088 (1920x1088) chroma: RV32 with scaling using Bicubic (good quality)
+main debug: using video converter module "swscale"
+main debug: Filter 'Swscale' (0fa8da80) appended to chain
+main debug: using video converter module "chain"
+main debug: Filter 'chain' (0afd3ee8) appended to chain
+main debug: original format sz 1920x1088, of (0,0), vsz 1920x1080, 4cc DX11, sar 1:1, msk r0x0 g0x0 b0x0
+main debug: VoutDisplayEvent 'window state' 0
+main debug: VoutDisplayEvent 'window state' 0
+main error: Failed to set on top
+main debug: removing module "freetype"
+main debug: VoutDisplayEvent 'resize' 1920x1080
+main debug: looking for text renderer module matching "any": 3 candidates
+freetype debug: Using DWrite backend
+freetype debug: DWrite_GetFamily(): family name: Arial
+freetype debug: DWrite_ParseFamily(): using font at index 0 with weight 400 for bold: 0, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 1 with weight 700 for bold: 1, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 2 with weight 400 for bold: 0, italic: 1
+freetype debug: DWrite_ParseFamily(): using font at index 3 with weight 700 for bold: 1, italic: 1
+main debug: using text renderer module "freetype"
+main debug: looking for hw decoder module matching "none": 2 candidates
+main debug: no hw decoder modules matched
+avcodec debug: trying format dxva2_vld
+main debug: removing module "chain"
+main debug: removing module "d3d11_filters"
+main debug: Filter 0fa8d530 removed from chain
+main debug: removing module "swscale"
+main debug: Filter 0fa8da80 removed from chain
+main debug: Filter 0afd3ee8 removed from chain
+main debug: removing module "vmem"
+main debug: deinterlace -1, mode auto, is_needed 0
+main debug: Opening vout display wrapper
+main debug: looking for vout display module matching "vmem": 12 candidates
+main debug: VoutDisplayEvent 'resize' 1920x1088
+main debug: using vout display module "vmem"
+main debug: A filter to adapt decoder DXA9 to display RV32 is needed
+main debug: looking for video converter module matching "any": 24 candidates
+chain debug: Trying to use chroma I420 as middle man
+main debug: looking for video converter module matching "any": 24 candidates
+d3d9_filters debug: Using Direct3D9 Extended API!
+main debug: using video converter module "d3d9_filters"
+main debug: Filter 'd3d9_filters' (0fa8cfe0) appended to chain
+main debug: looking for video converter module matching "any": 24 candidates
+swscale debug: 1920x1080 (1920x1088) chroma: I420 -> 1920x1088 (1920x1088) chroma: RV32 with scaling using Bicubic (good quality)
+main debug: using video converter module "swscale"
+main debug: Filter 'Swscale' (0fa8d7d8) appended to chain
+main debug: using video converter module "chain"
+main debug: Filter 'chain' (0fa8cd38) appended to chain
+main debug: original format sz 1920x1088, of (0,0), vsz 1920x1080, 4cc DXA9, sar 1:1, msk r0x0 g0x0 b0x0
+main debug: VoutDisplayEvent 'window state' 0
+main debug: reusing provided vout
+main debug: VoutDisplayEvent 'window state' 0
+main debug: looking for hw decoder module matching "none": 2 candidates
+main debug: no hw decoder modules matched
+main debug: removing module "chain"
+main debug: removing module "d3d9_filters"
+main debug: Filter 0fa8cfe0 removed from chain
+main debug: removing module "swscale"
+main debug: Filter 0fa8d7d8 removed from chain
+main debug: Filter 0fa8cd38 removed from chain
+main debug: removing module "vmem"
+main debug: deinterlace -1, mode auto, is_needed 0
+main debug: Opening vout display wrapper
+main debug: looking for vout display module matching "vmem": 12 candidates
+main debug: VoutDisplayEvent 'resize' 1920x1090
+main debug: using vout display module "vmem"
+main debug: A filter to adapt decoder J420 to display RV32 is needed
+main debug: looking for video converter module matching "any": 24 candidates
+swscale debug: 1920x1080 (1920x1090) chroma: J420 -> 1920x1090 (1920x1090) chroma: RV32 with scaling using Bicubic (good quality)
+main debug: using video converter module "swscale"
+main debug: Filter 'Swscale' (0fa8d530) appended to chain
+main debug: original format sz 1920x1090, of (0,0), vsz 1920x1080, 4cc J420, sar 1:1, msk r0x0 g0x0 b0x0
+main debug: VoutDisplayEvent 'window state' 0
+main debug: reusing provided vout
+main debug: VoutDisplayEvent 'window state' 0
+main error: Failed to set on top
+main debug: VoutDisplayEvent 'resize' 1920x1080
+main debug: Buffering 39%
+main debug: Buffering 43%
+main debug: Received first picture
+main debug: Buffering 47%
+main debug: Buffering 51%
+main debug: Buffering 55%
+main debug: Buffering 59%
+main debug: Buffering 63%
+main debug: Buffering 67%
+main debug: Buffering 71%
+main debug: Buffering 75%
+main debug: Buffering 78%
+main debug: Buffering 82%
+main debug: Buffering 86%
+main debug: Buffering 90%
+main debug: Buffering 94%
+main debug: Buffering 98%
+main debug: Stream buffering done (1029 ms in 842 ms)
+main debug: Decoder wait done in 0 ms
+main debug: auto hiding mouse cursor
+main debug: killing decoder fourcc `h264'
+main debug: removing module "avcodec"
+main debug: saving a free vout
+main debug: reusing provided vout
+main debug: removing module "h264"
+main debug: removing module "live555"
+main debug: Program doesn't contain anymore ES
+main debug: removing module "directsound"
+main debug: destroying useless vout
+main debug: removing module "swscale"
+main debug: Filter 0fa8d530 removed from chain
+main debug: removing module "vmem"
+main debug: removing module "freetype"
+main debug: removing module "yuvp"
+main debug: removing module "swscale"
+main debug: exiting
+main debug: no exit handler
+main debug: removing all interfaces
+main debug: removing module "memory"
+-- logger module stopped --
+﻿-- logger module started --
+main debug: VLC media player - 3.0.8 Vetinari
+main debug: Copyright © 1996-2019 the VideoLAN team
+main debug: revision 3.0.8-0-gf350b6b5a7
+main debug: configured with ../extras/package/win32/../../../configure  '--enable-update-check' '--enable-lua' '--enable-faad' '--enable-flac' '--enable-theora' '--enable-avcodec' '--enable-merge-ffmpeg' '--enable-dca' '--enable-mpc' '--enable-libass' '--enable-schroedinger' '--enable-realrtsp' '--enable-live555' '--enable-dvdread' '--enable-shout' '--enable-goom' '--enable-caca' '--enable-qt' '--enable-skins2' '--enable-sse' '--enable-mmx' '--enable-libcddb' '--enable-zvbi' '--disable-telx' '--enable-nls' '--host=i686-w64-mingw32' '--with-breakpad=https://win.crashes.videolan.org' 'host_alias=i686-w64-mingw32' 'PKG_CONFIG_LIBDIR=/home/jenkins/workspace/vlc-release/windows/vlc-release-win32-x86/contrib/i686-w64-mingw32/lib/pkgconfig'
+main debug: plug-ins loaded: 494 modules
+main debug: looking for logger module matching "any": 2 candidates
+file debug: opening logfile `Logs.log'
+main debug: using logger module "file"
+main debug: translation test: code is "zh_CN"
+main debug: looking for keystore module matching "memory": 3 candidates
+main debug: using keystore module "memory"
+main debug: CPU has capabilities MMX MMXEXT SSE SSE2 SSE3 SSSE3 SSE4.1 SSE4.2 FPU 
+main debug: creating audio output
+main debug: looking for audio output module matching "any": 6 candidates
+mmdevice error: cannot initialize COM (error 0x80010106)
+directsound debug: found 3 devices
+main debug: using audio output module "directsound"
+main debug: keeping audio output
+main debug: Creating an input for 'rtsp://192.168.1.64:554/'
+main debug: using timeshift granularity of 50 MiB
+main debug: using timeshift path: C:\Users\heng\AppData\Local\Temp
+main debug: `rtsp://admin:clt123456@192.168.1.64:554/' gives access `rtsp' demux `any' path `admin:clt123456@192.168.1.64:554/'
+main debug: creating demux: access='rtsp' demux='any' location='admin:clt123456@192.168.1.64:554/' file='\\admin:clt123456@192.168.1.64:554\'
+main debug: looking for access_demux module matching "rtsp": 15 candidates
+live555 debug: version 2016.11.28
+main warning: Password in a URI is DEPRECATED
+live555 debug: RTP subsession 'video/H264'
+main debug: selecting program id=0
+live555 debug: setup start: 0.000000 stop:0.000000
+live555 debug: We have a timeout of 60 seconds
+live555 debug: play start: 0.000000 stop:0.000000
+main debug: using access_demux module "live555"
+main debug: looking for packetizer module matching "any": 25 candidates
+h264 debug: found NAL_SPS (sps_id=0)
+h264 debug: found NAL_PPS (pps_id=0 sps_id=0)
+main debug: using packetizer module "h264"
+main debug: looking for video decoder module matching "any": 19 candidates
+avcodec debug: using ffmpeg Lavc58.6.103
+avcodec debug: CPU flags: 0x000fd3db
+avcodec debug: allowing 6 thread(s) for decoding
+avcodec debug: codec (h264) started
+avcodec debug: using frame thread mode with 6 threads
+main debug: using video decoder module "avcodec"
+main debug: looking for meta reader module matching "any": 2 candidates
+lua debug: Trying Lua scripts in C:\Users\heng\AppData\Roaming\vlc\lua\meta\reader
+lua debug: Trying Lua scripts in D:\VLC\lua\meta\reader
+lua debug: Trying Lua playlist script D:\VLC\lua\meta\reader\filename.luac
+main debug: no meta reader modules matched
+main debug: `rtsp://admin:clt123456@192.168.1.64:554/' successfully opened
+main debug: Buffering 0%
+main debug: Buffering 1%
+main debug: restarting module due to input format change
+main debug: Buffering 3%
+main debug: removing module "avcodec"
+main debug: looking for video decoder module matching "any": 19 candidates
+avcodec debug: using ffmpeg Lavc58.6.103
+avcodec debug: CPU flags: 0x000fd3db
+avcodec debug: allowing 6 thread(s) for decoding
+avcodec debug: codec (h264) started
+avcodec debug: using frame thread mode with 6 threads
+main debug: using video decoder module "avcodec"
+avcodec debug: available hardware decoder output format 119 (cuda)
+avcodec debug: available hardware decoder output format 53 (dxva2_vld)
+main debug: Buffering 5%
+avcodec debug: available hardware decoder output format 118 (d3d11va_vld)
+avcodec debug: available hardware decoder output format 174 (d3d11)
+avcodec debug: available software decoder output format 12 (yuvj420p)
+avcodec debug: trying format d3d11va_vld
+main debug: Buffering 7%
+main debug: Buffering 9%
+main debug: looking for text renderer module matching "any": 3 candidates
+freetype debug: Using DWrite backend
+freetype debug: DWrite_GetFamily(): family name: Arial
+freetype debug: DWrite_ParseFamily(): using font at index 0 with weight 400 for bold: 0, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 1 with weight 700 for bold: 1, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 2 with weight 400 for bold: 0, italic: 1
+freetype debug: DWrite_ParseFamily(): using font at index 3 with weight 700 for bold: 1, italic: 1
+main debug: using text renderer module "freetype"
+main debug: looking for video converter module matching "any": 24 candidates
+main debug: Buffering 12%
+swscale debug: 32x32 (32x32) chroma: YUVA -> 16x16 (16x16) chroma: RGBA with scaling using Bicubic (good quality)
+main debug: using video converter module "swscale"
+main debug: looking for video converter module matching "any": 24 candidates
+yuvp debug: YUVP to YUVA converter
+main debug: using video converter module "yuvp"
+main debug: Deinterlacing available
+main debug: deinterlace -1, mode auto, is_needed 0
+main debug: looking for vout window module matching "none": 3 candidates
+main debug: no vout window modules matched
+main debug: Opening vout display wrapper
+main debug: looking for vout display module matching "vmem": 12 candidates
+main debug: VoutDisplayEvent 'resize' 1920x1088
+main debug: using vout display module "vmem"
+main debug: A filter to adapt decoder DX11 to display RV32 is needed
+main debug: looking for video converter module matching "any": 24 candidates
+chain debug: Trying to use chroma I420 as middle man
+main debug: looking for video converter module matching "any": 24 candidates
+main debug: using video converter module "d3d11_filters"
+main debug: Filter 'd3d11_filters' (0e814630) appended to chain
+main debug: looking for video converter module matching "any": 24 candidates
+swscale debug: 1920x1080 (1920x1088) chroma: I420 -> 1920x1088 (1920x1088) chroma: RV32 with scaling using Bicubic (good quality)
+main debug: using video converter module "swscale"
+main debug: Filter 'Swscale' (0e8140e0) appended to chain
+main debug: using video converter module "chain"
+main debug: Filter 'chain' (3dc24b18) appended to chain
+main debug: original format sz 1920x1088, of (0,0), vsz 1920x1080, 4cc DX11, sar 1:1, msk r0x0 g0x0 b0x0
+main debug: VoutDisplayEvent 'window state' 0
+main debug: VoutDisplayEvent 'window state' 0
+main error: Failed to set on top
+main debug: removing module "freetype"
+main debug: VoutDisplayEvent 'resize' 1920x1080
+main debug: looking for text renderer module matching "any": 3 candidates
+freetype debug: Using DWrite backend
+freetype debug: DWrite_GetFamily(): family name: Arial
+freetype debug: DWrite_ParseFamily(): using font at index 0 with weight 400 for bold: 0, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 1 with weight 700 for bold: 1, italic: 0
+freetype debug: DWrite_ParseFamily(): using font at index 2 with weight 400 for bold: 0, italic: 1
+freetype debug: DWrite_ParseFamily(): using font at index 3 with weight 700 for bold: 1, italic: 1
+main debug: using text renderer module "freetype"
+main debug: looking for hw decoder module matching "none": 2 candidates
+main debug: no hw decoder modules matched
+avcodec debug: trying format dxva2_vld
+main debug: removing module "chain"
+main debug: removing module "d3d11_filters"
+main debug: Filter 0e814630 removed from chain
+main debug: removing module "swscale"
+main debug: Filter 0e8140e0 removed from chain
+main debug: Filter 3dc24b18 removed from chain
+main debug: removing module "vmem"
+main debug: deinterlace -1, mode auto, is_needed 0
+main debug: Opening vout display wrapper
+main debug: looking for vout

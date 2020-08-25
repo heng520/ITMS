@@ -1,0 +1,140 @@
+﻿<Window x:Class="ITMS.View.EquipManager"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ITMS.View.Page"
+        xmlns:themes="clr-namespace:ITMS.Style" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"  WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"   AllowsTransparency="True" Background="Transparent" OpacityMask="White"
+        Title="EquipManager" Height="650" Width="850">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.DialogHost.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.DataGrid.xaml" />
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="72"/>
+
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border MouseLeftButtonDown="Border_MouseLeftButtonDown">
+            <Grid >
+                <Grid.Background>
+                    <ImageBrush ImageSource="/ITMS;component/Resource/poupheader.png"/>
+                </Grid.Background>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="400"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="设备管理" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.ColumnSpan="2" Foreground="#FFFFFF"/>
+
+
+                <StackPanel  Orientation="Horizontal" Margin="0" HorizontalAlignment="Right" Grid.Column="1">
+                    <Button FontSize="15" x:Name="MinimizeButton" Content="&#xE921;"  Style="{StaticResource windowBtn}" themes:UniversalWindow.TitleBarButtonState="Minimized" Foreground="#FFFFFF"/>
+                    <Button  FontSize="15" x:Name="RestoreButton" Content="&#xE923;"  Style="{StaticResource windowBtn}" themes:UniversalWindow.TitleBarButtonState="Normal" Foreground="#FFFFFF"/>
+                    <!--<Button x:Name="MaximizeButton" Content="&#xE922;"  Style="{StaticResource windowBtn}" />-->
+                    <Button  FontSize="15" x:Name="CloseButton" Content="&#xE106;"  Style="{StaticResource Style.Button.Close}" themes:UniversalWindow.IsTitleBarCloseButton="True" Foreground="#FFFFFF" />
+                </StackPanel>
+
+            </Grid>
+        </Border>
+        <materialDesign:DialogHost Identifier="equipDialog" Grid.Row="1">
+            <Border Background="#FFFFFF"  CornerRadius="0 0 10 10" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition/>
+                        <RowDefinition Height="60"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="errorMsg" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Red" FontSize="12" Visibility="Collapsed"/>
+                    <DockPanel HorizontalAlignment="Left" Margin="20 0">
+                        <DockPanel.Resources>
+                            <Style TargetType="Button">
+                                <Setter Property="Width" Value="100"  />
+                                <Setter Property="Height" Value="35"  />
+                                <Setter Property="Foreground" Value="#FFFFFF"  />
+                                <Setter Property="Margin" Value="15 0 0 0"  />
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="Button">
+                                            <Border Name="OverBorder" BorderThickness="1" Background="{TemplateBinding Background}" CornerRadius="4" BorderBrush="{TemplateBinding Background}">
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </DockPanel.Resources>
+
+                        <Button Content="设备添加" Background="#007EFF"  x:Name="addEquipment" Click="addEquipment_Click" />
+                        <Button Content="修改" Background="#007EFF"  x:Name="updateEquipment" Click="updateEquipment_Click" />
+                        <Button Content="IP修改" Background="#007EFF"  Visibility="Collapsed"/>
+                        <Button Content="删除" Background="#B13333" Visibility="Visible" x:Name="deleteEquipment" Click="deleteEquipment_Click"/>
+                        <Button Content="红外设置" Background="#007EFF" Visibility="Collapsed"/>
+                    </DockPanel>
+
+                    <DataGrid Grid.Row="1" x:Name="equipList" Margin="10 5"     CanUserSortColumns="True" CanUserAddRows="False" AutoGenerateColumns="False" HorizontalGridLinesBrush="#EEEEEE" GridLinesVisibility="Horizontal"
+               VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"  RowHeaderWidth="0" SelectionMode="Extended"   Style="{StaticResource MoonGateThemesDataGrid}"  RowStyle="{StaticResource MoonGateThemesDataGridRow}">
+                        <DataGrid.Columns>
+
+                            <DataGridCheckBoxColumn Binding="{Binding IsSelected,UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" CellStyle="{StaticResource MoonGateThemesDataGridCell}"  CanUserReorder="False"
+                                      Visibility="Collapsed"                Width="35">
+                                <DataGridCheckBoxColumn.Header>
+                                    <Border Background="Transparent" Padding="3 0">
+                                        <CheckBox    DataContext="{Binding RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}, Path=DataContext}" HorizontalAlignment="Center" IsChecked="{Binding AllSelectedCmd}" />
+                                    </Border>
+                                </DataGridCheckBoxColumn.Header>
+                            </DataGridCheckBoxColumn>
+
+                            <DataGridTextColumn Binding="{Binding DeviceId}" Header="id"  CellStyle="{StaticResource MoonGateThemesDataGridCell}" Width="100"/>
+                            <DataGridTextColumn Binding="{Binding deviceName}" Header="设备名称"  CellStyle="{StaticResource MoonGateThemesDataGridCell}"/>
+                            <DataGridTextColumn Binding="{Binding CameraIp}" Header="设备IP" Width="150" CellStyle="{StaticResource MoonGateThemesDataGridCell}" IsReadOnly="True"/>
+                            <DataGridTextColumn Binding="{Binding RayIp}"  Header="红外IP"  CellStyle="{StaticResource MoonGateThemesDataGridCell}"/>
+                            <!--<DataGridTextColumn Binding="{Binding parkingName}" Header="停车场名称" Width="150" CellStyle="{StaticResource MoonGateThemesDataGridCell}"/>
+                            <DataGridTextColumn Binding="{Binding plateTypeName}" Header="车辆类型"  CellStyle="{StaticResource MoonGateThemesDataGridCell}"/>
+                            <DataGridTextColumn Binding="{Binding carportAllMoney}" Header="总租金" Width="100"  IsReadOnly="True" CellStyle="{StaticResource MoonGateThemesDataGridCell}"/>
+                            <DataGridTextColumn Binding="{Binding isMulti}" Header="是否多位多车" Width="100" CellStyle="{StaticResource MoonGateThemesDataGridCell}" IsReadOnly="True"/>
+                            <DataGridTextColumn Binding="{Binding endTime}" Header="结束日期" Width="180" CellStyle="{StaticResource MoonGateThemesDataGridCell}" IsReadOnly="True"/>-->
+
+                            <DataGridTemplateColumn Header="操作" CellStyle="{StaticResource MoonGateThemesDataGridCell}" Width="100" >
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                              <Button Content="红外线区域设置" Margin="10 0 0 0" Style="{StaticResource TransparentButton}" Click="Button_Click" DataContext="{Binding RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}, Path=DataContext}" ></Button>
+
+                                        </StackPanel>
+
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+
+
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Grid Grid.Row="2" VerticalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="200"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="默认视频Ip"/>
+                        <StackPanel Orientation="Horizontal" x:Name="stack" Grid.Column="1" >
+                            
+
+
+                        </StackPanel>
+                        <Button Style="{StaticResource Blue}" Content="保存" Grid.Column="2" Click="Button_Click_1"/>
+                    </Grid>
+                    
+                </Grid>
+            </Border>
+        </materialDesign:DialogHost>
+    </Grid>
+</Window>

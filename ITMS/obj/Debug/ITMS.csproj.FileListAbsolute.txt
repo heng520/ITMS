@@ -1,0 +1,237 @@
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\ITMS.exe.config
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\ITMS.exe
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\ITMS.pdb
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\CommonServiceLocator.dll
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\log4net.dll
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\MaterialDesignColors.dll
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\NModbus4.dll
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\Vlc.DotNet.Core.dll
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\log4net.xml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\MaterialDesignColors.pdb
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\bin\Debug\NModbus4.xml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\Login.g.cs
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\Style\Themes\RectangleAssist.g.cs
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\Style\Themes\VideoControl.g.cs
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\View\MainWindow.g.cs
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\View\EquipManager.g.cs
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\View\AddEquip.g.cs
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\View\Page\FaceFrame.g.cs
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\View\Page\InfraredRay.g.cs
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\App.g.cs
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\ITMS_MarkupCompile.cache
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\ITMS_MarkupCompile.lref
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\App.baml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\Login.baml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\Style\Themes\Button.baml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\Style\Themes\DataGrid.baml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\Style\Themes\RectangleAssist.baml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\Style\Themes\TextBox.baml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\Style\Themes\UniversalWindow.baml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\Style\Themes\VideoControl.baml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\View\MainWindow.baml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\View\EquipManager.baml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\View\AddEquip.baml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\View\Page\FaceFrame.baml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\View\Page\InfraredRay.baml
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\ITMS.g.resources
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\ITMS.Properties.Resources.resources
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\ITMS.csproj.GenerateResource.cache
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\ITMS.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\ITMS.csproj.Fody.CopyLocal.cache
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\ITMS.csproj.CopyComplete
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\ITMS.exe
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\ITMS.pdb
+C:\Users\lenovo\Documents\Tencent Files\530504269\FileRecv\ITMS\ITMS\obj\Debug\ITMS.csprojAssemblyReference.cache
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\ITMS.exe.config
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\ITMS.exe
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\ITMS.pdb
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.dll
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\log4net.dll
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\MaterialDesignColors.dll
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\Newtonsoft.Json.dll
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\NModbus4.dll
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\System.Windows.Interactivity.dll
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\Vlc.DotNet.Core.dll
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\Vlc.DotNet.Core.Interops.dll
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\Vlc.DotNet.Wpf.dll
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.pdb
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.xml
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\log4net.xml
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\MaterialDesignColors.pdb
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\Newtonsoft.Json.xml
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\NModbus4.xml
+F:\heng\红外测温\ITMS\ITMS\bin\Debug\Vlc.DotNet.Wpf.pdb
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\Login.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\Style\Themes\RectangleAssist.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\Style\Themes\VideoControl.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\AlarmLog.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\ConfigInfo.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\MainWindow.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\EquipManager.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\AddEquip.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\ModifyPassword.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\Page\bigImag.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\Page\BigImageWindow.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\Page\DialogShow.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\Page\DiaShow.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\Page\DiaShowWindow.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\Page\FaceFrame.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\Page\InfraredRay.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\PlayBack.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\RayModulation.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\UpdateEquip.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\App.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\ITMS_MarkupCompile.cache
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\ITMS_MarkupCompile.lref
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\App.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\Login.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\Style\Themes\Button.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\Style\Themes\Color.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\Style\Themes\DataGrid.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\Style\Themes\ListView.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\Style\Themes\RectangleAssist.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\Style\Themes\TextBox.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\Style\Themes\TreeView.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\Style\Themes\UniversalWindow.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\Style\Themes\VideoControl.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\AlarmLog.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\ConfigInfo.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\MainWindow.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\EquipManager.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\AddEquip.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\ModifyPassword.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\Page\bigImag.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\Page\BigImageWindow.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\Page\DialogShow.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\Page\DiaShow.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\Page\DiaShowWindow.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\Page\FaceFrame.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\Page\InfraredRay.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\PlayBack.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\RayModulation.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\View\UpdateEquip.baml
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\ITMS.g.resources
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\ITMS.Properties.Resources.resources
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\ITMS.csproj.GenerateResource.cache
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\ITMS.csproj.CoreCompileInputs.cache
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\ITMS.csproj.Fody.CopyLocal.cache
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\ITMS.csproj.CopyComplete
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\ITMS.exe
+F:\heng\红外测温\ITMS\ITMS\obj\Debug\ITMS.pdb
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\ITMS.exe.config
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\ITMS.exe
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\ITMS.pdb
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\Login.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\Style\Themes\RectangleAssist.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\Style\Themes\VideoControl.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\AlarmLog.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\ConfigInfo.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\MainWindow.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\EquipManager.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\AddEquip.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\ModifyPassword.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\Page\bigImag.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\Page\BigImageWindow.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\Page\DialogShow.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\Page\DiaShow.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\Page\DiaShowWindow.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\Page\FaceFrame.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\Page\InfraredRay.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\PlayBack.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\RayModulation.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\UpdateEquip.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\App.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\ITMS_MarkupCompile.cache
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\ITMS_MarkupCompile.lref
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\ITMS.exe
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\ITMS.pdb
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.dll
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\log4net.dll
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\MaterialDesignColors.dll
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\Newtonsoft.Json.dll
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\NModbus4.dll
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\System.Windows.Interactivity.dll
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\Vlc.DotNet.Core.dll
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\Vlc.DotNet.Core.Interops.dll
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.xml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\log4net.xml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\MaterialDesignColors.pdb
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\Newtonsoft.Json.xml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\bin\Debug\NModbus4.xml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\App.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\Login.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\Style\Themes\Button.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\Style\Themes\Color.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\Style\Themes\DataGrid.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\Style\Themes\ListView.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\Style\Themes\RectangleAssist.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\Style\Themes\TextBox.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\Style\Themes\TreeView.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\Style\Themes\UniversalWindow.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\Style\Themes\VideoControl.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\AlarmLog.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\ConfigInfo.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\MainWindow.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\EquipManager.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\AddEquip.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\ModifyPassword.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\Page\bigImag.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\Page\BigImageWindow.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\Page\DialogShow.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\Page\DiaShow.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\Page\DiaShowWindow.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\Page\FaceFrame.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\Page\InfraredRay.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\PlayBack.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\RayModulation.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\View\UpdateEquip.baml
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\ITMS.g.resources
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\ITMS.Properties.Resources.resources
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\ITMS.csproj.GenerateResource.cache
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\ITMS.csproj.CoreCompileInputs.cache
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\ITMS.csproj.Fody.CopyLocal.cache
+D:\QQDOC\544076295\FileRecv\MobileFile\ITMS\ITMS\obj\Debug\ITMS.csproj.CopyComplete

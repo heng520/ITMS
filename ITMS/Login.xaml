@@ -1,0 +1,74 @@
+﻿<Window x:Class="ITMS.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:ITMS"
+        xmlns:themes="clr-namespace:ITMS.Style" 
+        mc:Ignorable="d" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"   AllowsTransparency="True" OpacityMask="White"  MouseLeftButtonDown="Border_MouseLeftButtonDown"
+        Title="Login" Height="492" Width="538">
+    <Window.Background>
+        <ImageBrush ImageSource="/ITMS;component/Resource/loginbg.png"/>
+    </Window.Background>
+    <Border CornerRadius="10" BorderThickness="0">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Button HorizontalAlignment="Right" x:Name="CloseButton" Content="&#xE106;"  Style="{StaticResource Style.Button.Close}" themes:UniversalWindow.IsTitleBarCloseButton="True" Foreground="#FFFFFF" />
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="2.5*"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Image Source="/ITMS;component/Resource/loginframe.png" Grid.RowSpan="4" Margin="0 0 0 10"/>
+                <Label Content="测温客户端" FontSize="30" Foreground="#EFFAFF" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="HYXiaoBoZheZhiTiJ"/>
+
+                <Button Grid.Row="4" Width="260" Height="50" VerticalAlignment="Bottom" Content="登录" Click="Button_Click">
+
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="FontSize" Value="20"/>
+                            <Setter Property="Foreground" Value="#FFFFFF"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border CornerRadius="4">
+                                            <Border.Background>
+                                                <LinearGradientBrush StartPoint="0,0" EndPoint="0 1">
+                                                    <GradientStop Color="#006CFF" Offset="0.5" />
+                                                    <GradientStop Color="#70BAFF" Offset="0"/>
+                                                </LinearGradientBrush>
+                                            </Border.Background>
+                                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Grid Grid.Row="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <TextBox Width="260" Height="50" x:Name="帐户" Text="admin"/>
+                    <PasswordBox Grid.Row="1" Width="260" Height="50"  x:Name="passwod" PasswordChanged="passwod_PasswordChanged" Password="admin"/>
+                    <TextBlock Grid.Row="1" x:Name="HintMsg"  HorizontalAlignment="Center"  Text="密码" Opacity="0.5" VerticalAlignment="Center" FontSize="18" Foreground="#81A6FF" Margin="-205 0 0 0"/>
+                </Grid>
+            </Grid>
+
+            <materialDesign:Snackbar IsActive="False" Style="{StaticResource UnSnackbar}"  Grid.Row="3"   VerticalAlignment="Bottom" x:Name="MesBar">
+                <materialDesign:SnackbarMessage   HorizontalAlignment="Center"  x:Name="errorMessage"/>
+            </materialDesign:Snackbar>
+        </Grid>
+    </Border>
+</Window>
